@@ -43,7 +43,7 @@ params = {
     "regressor__random_state": [8888]
 }
 
-grid_search = GridSearchCV(pipeline, param_grid=params, cv=5, scoring='neg_mean_squared_error', verbose=0)
+grid_search = GridSearchCV(pipeline, param_grid=params, cv=5, n_jobs=-1, scoring='neg_mean_squared_error', verbose=0)
 
 # On divise les données en jeu d'entrainement et de validation
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)

@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/GRETA/Documents/GitHub/MLOps/Jean/mlruns/175072019376251501/cecb807f8c4448c8bfd5dde141aac074/artifacts
+end_time: 1713789895785
+entry_point_name: ''
+experiment_id: '175072019376251501'
+lifecycle_stage: active
+run_id: cecb807f8c4448c8bfd5dde141aac074
+run_name: data_preprocessing
+run_uuid: cecb807f8c4448c8bfd5dde141aac074
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713789895591
+status: 3
+tags: []
+user_id: GRETA

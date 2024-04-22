@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/GRETA/Documents/GitHub/MLOps/Jean/mlruns/175072019376251501/3038664c52aa4d9ebc7461e1542e6cfc/artifacts
+end_time: 1713789996931
+entry_point_name: ''
+experiment_id: '175072019376251501'
+lifecycle_stage: active
+run_id: 3038664c52aa4d9ebc7461e1542e6cfc
+run_name: carefree-ray-426
+run_uuid: 3038664c52aa4d9ebc7461e1542e6cfc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713789984079
+status: 3
+tags: []
+user_id: GRETA

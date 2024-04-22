@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/GRETA/Documents/GitHub/MLOps/Jean/mlruns/175072019376251501/dbd31f1a070641e3bfd59944bd791258/artifacts
+end_time: 1713790055618
+entry_point_name: ''
+experiment_id: '175072019376251501'
+lifecycle_stage: active
+run_id: dbd31f1a070641e3bfd59944bd791258
+run_name: caring-turtle-258
+run_uuid: dbd31f1a070641e3bfd59944bd791258
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713790044670
+status: 3
+tags: []
+user_id: GRETA
