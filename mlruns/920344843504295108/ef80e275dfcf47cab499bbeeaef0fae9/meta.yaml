@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/920344843504295108/ef80e275dfcf47cab499bbeeaef0fae9/artifacts
+end_time: 1713789211092
+entry_point_name: ''
+experiment_id: '920344843504295108'
+lifecycle_stage: active
+run_id: ef80e275dfcf47cab499bbeeaef0fae9
+run_name: unleashed-skink-611
+run_uuid: ef80e275dfcf47cab499bbeeaef0fae9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713789082213
+status: 3
+tags: []
+user_id: GRETA

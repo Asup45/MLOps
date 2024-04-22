@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1713789211030
+current_stage: None
+description: ''
+last_updated_timestamp: 1713789211030
+name: tracking-XGBoost
+run_id: ef80e275dfcf47cab499bbeeaef0fae9
+run_link: ''
+source: mlflow-artifacts:/920344843504295108/ef80e275dfcf47cab499bbeeaef0fae9/artifacts/XGBRegressor_model
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/920344843504295108/ef80e275dfcf47cab499bbeeaef0fae9/artifacts/XGBRegressor_model
+user_id: null
+version: 1

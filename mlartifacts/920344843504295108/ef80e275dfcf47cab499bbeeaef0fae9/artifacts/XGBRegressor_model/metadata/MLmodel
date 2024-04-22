@@ -1,0 +1,35 @@
+artifact_path: XGBRegressor_model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.4.2
+mlflow_version: 2.12.1
+model_size_bytes: 1180365
+model_uuid: ad2b2cff05294501b8448476dc022bd3
+run_id: ef80e275dfcf47cab499bbeeaef0fae9
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  type: dataframe
+signature:
+  inputs: '[{"type": "long", "name": "work_year", "required": true}, {"type": "string",
+    "name": "experience_level", "required": true}, {"type": "string", "name": "employment_type",
+    "required": true}, {"type": "string", "name": "job_title", "required": true},
+    {"type": "long", "name": "salary", "required": true}, {"type": "string", "name":
+    "salary_currency", "required": true}, {"type": "string", "name": "employee_residence",
+    "required": true}, {"type": "long", "name": "remote_ratio", "required": true},
+    {"type": "string", "name": "company_location", "required": true}, {"type": "string",
+    "name": "company_size", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float32", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2024-04-22 12:33:21.043188'
