@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1713787743640
+current_stage: None
+description: ''
+last_updated_timestamp: 1713787743640
+name: tracking-quickstart
+run_id: bdcdb437bbd54cccaa732bfda76b32cd
+run_link: ''
+source: mlflow-artifacts:/920344843504295108/bdcdb437bbd54cccaa732bfda76b32cd/artifacts/RandomForestRegressor_model
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/920344843504295108/bdcdb437bbd54cccaa732bfda76b32cd/artifacts/RandomForestRegressor_model
+user_id: null
+version: 4

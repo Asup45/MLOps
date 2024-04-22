@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/920344843504295108/0a1fc5b6597241298e4ce6420d441f0d/artifacts
+end_time: 1713784770682
+entry_point_name: ''
+experiment_id: '920344843504295108'
+lifecycle_stage: active
+run_id: 0a1fc5b6597241298e4ce6420d441f0d
+run_name: dashing-worm-404
+run_uuid: 0a1fc5b6597241298e4ce6420d441f0d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713784651161
+status: 3
+tags: []
+user_id: GRETA

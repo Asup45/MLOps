@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/920344843504295108/bdcdb437bbd54cccaa732bfda76b32cd/artifacts
+end_time: 1713787743764
+entry_point_name: ''
+experiment_id: '920344843504295108'
+lifecycle_stage: active
+run_id: bdcdb437bbd54cccaa732bfda76b32cd
+run_name: peaceful-grouse-82
+run_uuid: bdcdb437bbd54cccaa732bfda76b32cd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713787618000
+status: 3
+tags: []
+user_id: GRETA
