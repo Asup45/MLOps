@@ -1,6 +1,6 @@
 import mlflow
+import mlflow.pyfunc
 from mlflow.models import infer_signature
-
 import pandas as pd
 
 from sklearn import datasets
@@ -29,11 +29,11 @@ lr.fit(X_train, y_train)
 y_pred = lr.predict(X_test)
 
 accuracy = accuracy_score(y_test, y_pred)
-precision = precision_score(y_test, y_pred)
-recall = recall_score(y_test, y_pred)
-f1 = f1_score(y_test, y_pred)
+precision = precision_score(y_test, y_pred, average='macro')
+recall = recall_score(y_test, y_pred, average='macro')
+f1 = f1_score(y_test, y_pred, average='macro')
 
-mlflow.set_tracking_uri("http://127.0.0.1:5000")
+mlflow.set_tracking_uri("http://localhost:5000")
 
 mlflow.set_experiment("MLflow Quickstart")
 
@@ -50,4 +50,23 @@ with mlflow.start_run():
 
     signature = infer_signature(X_train, lr.predict(X_train))
 
-    model_info = mlflow.sklearn.log_model(sk_model=lr,
+    model_info = mlflow.sklearn.log_model(
+    sk_model=lr,
+    artifact_path="iris_model",
+    signature=signature,
+    input_example=X_train,
+    registered_model_name="tracking-quickstart",
+)
+
+
+loaded_model = mlflow.pyfunc.load_model(model_info.model_uri)
+
+predictions = loaded_model.predict(X_test)
+
+iris_feature_names = datasets.load_iris().feature_names
+
+result = pd.DataFrame(X_test, columns=iris_feature_names)
+result["actual class"] = y_test
+result["predicted class"] = predictions
+
+print(result)

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/469701605225258247/2eea626ceb6d4c36ba7a582feffe39a0/artifacts
+end_time: 1713775391356
+entry_point_name: ''
+experiment_id: '469701605225258247'
+lifecycle_stage: active
+run_id: 2eea626ceb6d4c36ba7a582feffe39a0
+run_name: big-shrimp-873
+run_uuid: 2eea626ceb6d4c36ba7a582feffe39a0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713775386773
+status: 3
+tags: []
+user_id: GRETA
