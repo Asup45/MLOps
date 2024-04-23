@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/920344843504295108/13c560e9463545c8b6dec3bf9adbb488/artifacts
+end_time: 1713795140266
+entry_point_name: ''
+experiment_id: '920344843504295108'
+lifecycle_stage: active
+run_id: 13c560e9463545c8b6dec3bf9adbb488
+run_name: intelligent-shark-88
+run_uuid: 13c560e9463545c8b6dec3bf9adbb488
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713795099240
+status: 3
+tags: []
+user_id: GRETA
